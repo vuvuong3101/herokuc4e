@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UP Food</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .w3-bar-block .w3-bar-item {padding:20px}
+    </style>
+</head>
+<body>
+    <form class="w3-container" method="post" enctype="multipart/form-data">
+        <label>Source</label>
+        <input class="w3-input" type="file" accept="image/*" name="source">
+         <label>Image</label>
+        <input class="w3-input" type="text" name="image">
+        <label>Title</label>
+        <input class="w3-input" type="text" name="title">
+
+        <label> Description</label>
+        <input class="w3-input" type="text" name="description">
+        <input type="submit"  class="w3-btn w3-grey w3-round" value="Submit">
+        <a href="/logout" class="w3-btn w3-red">LOGOUT</a>
+    </form>
+
+</body>
+</html>

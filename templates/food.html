@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOOD</title>
+</head>
+<body>
+    <ul>
+        {%  for item in image_list %}
+        <li>
+            <img src="{{ item["src"] }} ", alt = "{{ item["title"] }}">
+            <h1> {{ item["title"] }}</h1>
+            <h1>{{ item["tag"] }}</h1>
+        </li>
+        {%  endfor %}
+    </ul>
+</body>
+</html>
